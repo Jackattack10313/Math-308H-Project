@@ -7,7 +7,7 @@ from math import pow
 sigma = 10
 r = 28
 b = 8 / 3
-stepSize = 0.001
+stepSize = 1
 iterations = int(input("Enter the number of iterations: "))
 allowedError = float(input("Enter the truncation error: "))
 xInitial = float(input("Enter the initial rate of convection - x: "))
@@ -41,6 +41,8 @@ z = np.array([zInitial])
 time = np.array([0])
 
 for i in range(iterations):
+    if i % 1000 == 0:
+        print(i)
     z = np.append(z, [RK45("x*y-b*z", x[i], y[i], z[i]) + z[i]])
     y = np.append(y, [RK45("x*(r-z)-y", x[i], y[i], z[i]) + y[i]])
     x = np.append(x, [RK45("sigma*(y-x)", x[i], y[i], z[i]) + x[i]])
