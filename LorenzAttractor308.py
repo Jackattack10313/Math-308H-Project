@@ -13,7 +13,7 @@ def f(state, t):
     return sigma * (y - x), x * (rho - z) - y, x * y - beta * z  # Derivatives
 
 
-state0 = [100.0, 100.0, 1.0]
+state0 = [1.0, 1.0, 1.0]
 t = np.arange(0.0, 550.0, 0.0005)
 
 
