@@ -1,1 +1,9 @@
-
+![alt text](https://cdn.discordapp.com/attachments/975043937666490400/1063973696114532362/Convection100.png)
+![alt text](https://cdn.discordapp.com/attachments/975043937666490400/1063973696324255785/HorizontalTemperatureVariation100.png)
+![alt text](https://cdn.discordapp.com/attachments/975043937666490400/1063973696647205005/VerticalTemperatureVariation100.png)
+![alt text](https://cdn.discordapp.com/attachments/975043937666490400/1063973696877895750/butterfly.png)
+![alt text](https://cdn.discordapp.com/attachments/975043937666490400/1063973697150533702/bifurcation_r.png)
+![alt text](https://cdn.discordapp.com/attachments/975043937666490400/1063973697402179584/rossler.png)
+![alt text](https://cdn.discordapp.com/attachments/975043937666490400/1063973697595121704/bifurcation_closeup.png)
+![alt text](https://cdn.discordapp.com/attachments/975043937666490400/1063973697817415821/henon_map.png)
+![alt text](https://cdn.discordapp.com/attachments/975043937666490400/1063973698048106556/lorenz_map.png)
